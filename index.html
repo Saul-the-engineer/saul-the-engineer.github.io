@@ -6,4 +6,231 @@
     <title>Saul Ramirez</title> <!-- YOU WILL WANT TO CHANGE THIS TITLE -->
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
+  <body>
+
+    <!-- idea: have a javascript animated loss function converging in the header? :p -->
+    <div id="dhead" class="container">
+      <div class="row">
+        <div id="dpic">
+          <img src="assets/portraint_full.JPG" class="ppic" alt="Saul Ramirez Portrait"/> <!-- REPLACE THIS IMAGE -->
+        </div>
+        <div id="ddesc">
+          <h1>Saul Ramirez</h1> <!-- CHANGE THIS NAME -->
+          <h2>I build AI that actually works<br>Also guilty of training massive models for fun 🧠⚙️💥</h2> <!-- CHANGE THIS SUBTITLE -->
+          <div id="dico">
+            <!-- UPDATE THESE LINKS AND ICONS AS NEEDED -->
+            <a href="https://www.linkedin.com/in/saulramirez/"><img src="assets/clinkedin.svg" class="iico" /></a>            
+            <a href="https://github.com/saul-the-engineer"><img src="assets/cgithub.svg" class="iico"/></a>
+            <a href="https://saul-the-engineer.github.io"><img src="assets/crss.svg" class="iico" /></a>
+            <a href="https://medium.com/@saulgramirez"><img src="assets/crss.svg" class="iico" /></a>
+            <img src="assets/cemail.svg" style="cursor: pointer;" class="iico" id="iemail" title="click to reveal" />
+          </div>
+          <div id="demail"></div> <!-- will reveal email -->
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div id="bio" class="container" style="display:none;"> <!-- THIS IS CURRENTLY HIDDEN, YOU CAN MAKE IT VISIBLE BY REMOVING style="display:none;" AND EDITING CONTENT -->
+But if I told you what would people write about in the future?
+    </div>
+
+    <div id="history" class="container"> <!-- THIS IS YOUR MAIN CONTENT AREA NOW -->
+
+
+      <div class="entry row">
+        <div class="timespan">
+          2025 - Present
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="assets/aldea.svg" /> <!-- REPLACE IMAGE -->
+        </div>
+        <div class="desc">
+          Working on a new startup. We're focused on rethinking the way we interact with AI. My focus has been on Conversation Modeling, Data Generation, Model Training, Evaluation, and Model Deployment. <!-- EDIT THIS CONTENT -->
+          <br><br>
+          Can't wait to share more about it! <!-- EDIT THIS CONTENT -->
+        </div>
+      </div>  
+
+      <div class="entry row">
+        <div class="timespan">
+          2024 - 2025
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="assets/Experian-Health-logo.png" /> <!-- REPLACE IMAGE -->
+        </div>
+        <div class="desc">
+        I joined Experian Health as a data scientist with a focus on improving models used to assess Social Determinants of Health—critical factors that influence patient outcomes beyond clinical care. Our goal was to help providers better understand risk and deliver more equitable, effective healthcare.
+          <br><br>
+        My role quickly evolved into leading MLOps initiatives. I led a comprehensive review of our predictive models, prioritized key updates, and significantly improved model performance and decision-making accuracy. I also developed a cloud migration roadmap for our MLOps infrastructure, ensuring that models were scalable, production-ready, and continuously monitored.
+          <br><br>
+        What started as a model-tuning effort became a larger mission: to build the infrastructure that made our machine learning systems not only smarter, but more reliable and impactful at scale.
+        </div>
+      </div>   
+
+      <div class="entry row">
+        <div class="timespan">
+          2023 - 2024
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="assets/benlabs.png" /> <!-- REPLACE IMAGE -->
+        </div>
+        <div class="desc">
+        I joined BENlabs as a Machine Learning Engineer, applying cutting-edge techniques to the world of influencer marketing and product placement. My claim to fame? Contributing to one of our first recommendation systems—used to assist product placements for the Barbie movie.
+          <br><br>
+        My work spanned from research to deployment, with projects that included building features using GenAI and Retrieval-Augmented Generation (RAG) to track trends, analyze influencer content, and generate insights for over 5,000 YouTube creators. I also led the launch of an Agent Chatbot equipped with internet browsing, web scraping, and summarization tools, which boosted beta usage by 10% and improved decision-making workflows.
+          <br><br>
+        I directed the predictive modeling strategy for a new TV and movie product placement SaaS product, helping generate over $5M ARR by automating audience targeting and optimizing advertising impact. I also modeled streaming audiences using multiple-regression BERT models to forecast gender and age distribution, leading to a 7% increase in agency bundled sales. Finally, I deployed a similarity model for TV and film content that reduced agency research time by 80%.
+          <br><br>
+        It was a fast-moving, experimental environment where I got to do a bit of everything—from clustering with embeddings to building production-grade analytics and forecasting tools.
+        </div>
+      </div>   
+
+      <div class="entry row">
+        <div class="timespan">
+          2022 - 2022
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="assets/Amazon_logo.svg" /> <!-- REPLACE IMAGE -->
+        </div>
+        <div class="desc">
+          Made it to FANG as a Data Engineer! I built some really cool data pipelines and even got the return offer. However it didn't feel right. I had a deep passion for machine learning, and if I stayed I wouldn't get to do much more than SQL queries. Extremely hard decision.
+        </div>
+      </div>   
+
+      <div class="entry row">
+        <div class="timespan">
+          2020 - 2023
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="assets/Brigham_Young_University_medallion.svg" /> <!-- REPLACE IMAGE -->
+        </div>
+        <div class="desc">
+        I got the opportunity to go back to Brigham Young University to work with Dr. Gus Williams again. This time on a NASA sponsored project to do time series imputation for groundwater wells. The project was focused on analyzing the change of groundwater in Western Africa, but I thought, If I could do it for a specific country, why not generalize it and apply it to anywhere in the world.
+          <br><br>
+        This was the best experience I could have asked for. I got to mentor students in Data Science while learning more about machine learning myself. I because with linear regression which became neural networks, images began to be analyzed using CNNs, and at a certain point Time series analysis  became sequence modeling which became NLP.
+          <br><br>
+        I accidentally fell in love with the application of machine learning to real world problems, little did I know that I had set myself up for a career as a Machine Learning Engineer
+        </div>
+      </div>
+
+      <div class="entry row">
+        <div class="timespan">
+          2019 - 2020
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="assets/Kiewit_Logo.svg" /> <!-- REPLACE IMAGE -->
+        </div>
+        <div class="desc">
+            Rubber hit the road, litterally. I designed drainage systems, stormwater management systems, and other civil engineering systems for a variety of projects. Mostly behemoth sized highway and lightrail projects.
+            <br><br>
+            I found out that civil engineering and construction, in practice, is not the most innovative field. Most of the cutting edge modeling and simulation I learned in school was not being used. I was a bit disappointed, but I learned so much about how the world around me was built.
+            <br><br>           
+            Along the way my boss figured out I could code, and I was assigned to work on research projects focusing on Computer Vision, Natural Language Processing, and Optimization to expediate design and increase safety for workers. After a while I decided that programming was more fun than civil engineering, and there were plenty of people who could do the civil engineering part just as well, or better, than I could. So I decided to shift my focus on programming and data science.
+        </div>
+      </div>
+
+      <div class="entry row">
+        <div class="timespan">
+          2018 - 2019
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="assets/Brigham_Young_University_medallion.svg" /> <!-- REPLACE IMAGE -->
+        </div>
+        <div class="desc">
+          M.S. in Civil Engineering, where I worked with Gus Williams applying Empirical Mode Decomposition (EMD) to environmental signals—essentially breaking down complex, messy time series This was my first exposure into pretty intense numerical methods, and a good exposure to geospatial and temporal data analysis. I got really into the 2D physical modeling. I hoped my data analysis and modeling skills prepared me to make a difference in industry.
+        </div>
+      </div>
+
+      <div class="entry row">
+        <div class="timespan">
+          2012 - 2018
+        </div>
+        <div class="ico">
+          <div class="entry-dot"></div>
+          <img src="assets/Brigham_Young_University_medallion.svg" /> <!-- REPLACE IMAGE -->
+        </div>
+        <div class="desc">
+          B.S. in Civil Engineering, driven by a deep passion for infrastructure’s role in shaping society and a commitment to expanding access to clean water for as many people as possible.
+        </div>
+      </div>
+    </div>
+
+
+    <div style="background-color: #eee; padding-top: 1px; margin-top: 50px; padding-bottom: 30px;">
+    <div class="container">
+      <div class="ctitle">Featured Writing</div> <!-- YOU MIGHT WANT TO CHANGE THIS TITLE OR CONTENT -->
+      <div>It's coming</div>
+      <ul class="nodot">
+      </ul>
+    </div>
+    </div>
+
+
+    <div class="container"> <!-- YOU MIGHT WANT TO CHANGE THIS TITLE OR CONTENT -->
+      <div class="ctitle">Publications</div>
+
+      <div class="pub">
+        <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S1364815222001797">Extending SC-PDSI-PM with neural network regression using GLDAS data and Permutation Feature Importance</a></div>
+        <div class="pub-venue">Environmental Modelling & Software</div>
+        <div class="pub-authors">Saul Ramirez, Riley Hales, Gus Williams, Norm Jones</div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title"><a href="https://www.mdpi.com/2072-4292/14/21/5509">Groundwater level data imputation using machine learning and remote earth observations using inductive bias</a></div>
+        <div class="pub-venue">Remote Sensing</div>
+        <div class="pub-authors">Saul Ramirez, Gus Williams, Norm Jones</div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title"><a href="https://www.mdpi.com/2073-4441/15/6/1236">Improving groundwater imputation through iterative refinement using spatial and temporal correlations from in situ data with machine learning</a></div>
+        <div class="pub-venue">Water</div>
+        <div class="pub-authors">Saul Ramirez, Gus Williams, Norm Jones Dan Ames, Jani Radebaugh</div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S1364815225000520">Groundwater Storage Loss in the Central Valley Analysis Using a Novel Method based on In Situ Data Compared to GRACE-Derived Data</a></div>
+        <div class="pub-venue">Environmental Modelling & Software</div>
+        <div class="pub-authors">Michael Stevens, Saul Ramirez, Eva-Marie Martin, Norm Jones, Gus Williams, Kyra Adams, Dan Ames, Sarva Pulla</div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title"><a href="https://www.mdpi.com/2073-4441/15/4/676">A Machine Learning Approach for Identification of Low-Head Dams</a></div>
+        <div class="pub-venue">Water</div>
+        <div class="pub-authors">Salvador Vinay, Rollin Hotchkiss, Saul Ramirez</div>
+      </div>
+
+      <div>
+        <br>
+        Also on <a href="https://scholar.google.com/citations?user=Zrozd_gAAAAJ&hl=en">Google Scholar</a> <!-- UPDATE THIS LINK -->
+      </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <!-- attempt hiding from spambots :p -->
+    <script type="text/javascript">
+      const rot13 = (message) => {
+        const alpha = 'abcdefghijklmnopqrstuvwxyzabcdefghijklmABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLM';
+        return message.replace(/[a-z]/gi, letter => alpha[alpha.indexOf(letter) + 13]);
+      }
+      var e_is_shown = false;
+      document.getElementById('iemail').addEventListener("click", function(){
+        let demail = document.getElementById('demail');
+        // CUSTOMIZE YOUR EMAIL AND MESSAGE HERE if you keep this feature
+        let msg = "your.email" + "@" + "example.com<br>Please be patient with replies."; // CHANGE THIS
+        demail.innerHTML = rot13(msg);
+        demail.style.opacity = e_is_shown ? 0 : 1;
+        e_is_shown = !e_is_shown;
+      })
+    </script>
+  </body>
 </html>
