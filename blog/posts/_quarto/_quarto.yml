@@ -1,0 +1,14 @@
+project:
+  type: website
+  output-dir: ../posts
+
+website:
+  title: "Saul's Blog"
+  
+format:
+  html:
+    theme: none
+    css: ../../style.css
+    template-partials:
+      - header.html
+      - footer.html

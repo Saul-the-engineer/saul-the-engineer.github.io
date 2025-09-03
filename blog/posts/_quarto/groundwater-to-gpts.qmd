@@ -1,0 +1,10 @@
+---
+title: "From Groundwater to GPTs: My ML Journey"
+date: "2025-09-02"
+permalink: "/blog/posts/groundwater-to-gpts/"
+format:
+  html:
+    output-file: "../posts/groundwater-to-gpts/index.html"
+---
+
+Your content here...
