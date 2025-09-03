@@ -2,9 +2,9 @@
 title: "From Groundwater to GPTs: My ML Journey"
 date: "2025-09-02"
 permalink: "/blog/posts/groundwater-to-gpts/"
+draft: true
 format:
-  html:
-    output-file: "../posts/groundwater-to-gpts/index.html"
+  html: default
 ---
 
-Your content here...
+I wanted to quickly share my experience from civil engineer to AI Researcher.
